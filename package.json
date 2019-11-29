@@ -1,13 +1,13 @@
 {
-  "homepage": "https://jesrojas.github.io/blockchain",
   "name": "src",
+  "homepage": "https://jesrojas.github.io/blockchain",
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
   "scripts": {
     "test": "jest --watchAll",
     "dev": "nodemon ./app",
-    "build": "watchify script.js -o bundle.js",
+    "build": "browserify script.js -o bundle.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
