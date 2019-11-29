@@ -1,0 +1,39 @@
+body{
+	background: rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,151,233,1) 100%);
+}
+
+.headerTitle{
+	font-family: 'Bebas Neue', cursive;
+}
+
+.genesisBtn{
+	width: 10em; 
+	background-color: #6FDA44;
+}
+
+@media only screen and (max-width: 1600px){
+	.blockData{
+		max-width: 900px;
+	}
+
+}
+
+@media only screen and (max-width: 1200px){
+	.blockData{
+		max-width: 600px;
+	}
+
+}
+
+@media only screen and (max-width: 992px){
+	.blockData{
+		max-width: 350px;
+	}
+}
+
+@media only screen and (max-width: 770px){
+	.blockData, .lastHashData, .timestampData, .nonceData, .hashData{
+		max-width: 300px;
+	}
+}
