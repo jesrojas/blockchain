@@ -147,7 +147,7 @@ const creatingNewBlock = function() {
 
 		blockchainList.innerHTML += 
 		`<br>
-			<div class="animated fadeInRight card card-nav-tabs" style="min-width: 510px;">
+			<div class="animated fadeInRight card card-nav-tabs" style="min-width: 330px;">
 	          <div class="card-header card-header-danger" style="background: #7B8AFC;">
 	            Block ${blocksCount}
 	          </div>
